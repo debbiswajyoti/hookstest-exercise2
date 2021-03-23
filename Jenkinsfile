@@ -7,13 +7,13 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                sh 'echo Hello World'
+                sh 'echo Hello World!'
                 sh 'sleep 2'
             }
         }
         stage("Deploy"){
             steps{
-                sh 'echo Hello Again'
+                sh 'echo Hello World Again`'
                 sh 'sleep 2'
             }
         }
