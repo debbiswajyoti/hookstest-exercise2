@@ -13,7 +13,7 @@ pipeline{
         }
         stage("Deploy"){
             steps{
-                sh 'echo Hello World Again`'
+                sh 'echo Hello World Again'
                 sh 'sleep 2'
             }
         }
